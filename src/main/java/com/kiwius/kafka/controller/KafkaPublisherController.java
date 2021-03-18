@@ -1,5 +1,6 @@
 package com.kiwius.kafka.controller;
 
+import com.kiwius.kafka.Service.PingService;
 import com.kiwius.kafka.domain.Ping;
 import com.kiwius.kafka.domain.Pong;
 import org.springframework.beans.factory.annotation.Autowired;
