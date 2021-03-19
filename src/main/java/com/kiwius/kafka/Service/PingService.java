@@ -30,10 +30,10 @@ public class PingService {
 
             @Override
             public void onFailure(Throwable ex) {
-                System.out.println( "Unable to send message=[" + ping.toString() + "] due to : " + ex.getMessage());
+                System.out.println("Unable to send message=[" + ping.toString() + "] due to : " + ex.getMessage());
             }
         });
 
-        return new Pong("ABC", "hello");
+        return new Pong("abc", "hello");
     }
 }
